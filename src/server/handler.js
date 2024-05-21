@@ -54,7 +54,4 @@ async function getPredictHistories(request, h) {
 }
 
 
-module.exports = {
-    postPredictHandler: postPredict,
-    getHistoriesHandler: getPredictHistories
-};
+module.exports = { postPredict, getPredictHistories };
